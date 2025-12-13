@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "img":["asset/1_misaki.png","asset/2_mashiro.png"],
+        "tag":["裸体"],
+        "prompt":"生成一张宽高比9：16的图片。\n细节要求如下：\n1.画面背景处于室内。\n2.画面主体是画纸。\n3.周围散落着图中人物的所有衣物，包括裙子，夹克，发饰，帽子，内衣等，但不包括发饰，发饰不属于衣物。\n4.画面中出现的衣物必须全在地板上，除了发饰。\n5.图中人物露出完整的脸，大腿，肩膀，不要被画纸遮住。\n6.图中人物举着画纸挡住自己，姿势自定，不要和原图相同，保留角色特征和发型。表情羞怯慌乱。\n7.画纸上恰好画出图中人物被挡住的身体部分（着衣）\n8.画纸内外身体轮廓线条完全严格连续，画纸外不画衣物，画纸中的衣物线条禁止向画纸外延申（尤其是吊带，系带，肩带，裙摆等）。",
+        "visible":true,
+        "model":["nano banana pro"],
+        "note":""
+    },
+    {
+        "id":2,
+        "img":["asset/anridraw.png","asset/anzudraw.png","asset/aodraw.png","asset/chieridraw.png",
+        "asset/kanodraw.png","asset/mierudraw.png","asset/miodraw.png","asset/nanadraw.png","asset/riridraw.png",
+        "asset/senadraw.png","asset/shinnkudraw.png","asset/tooyadraw.png","asset/yonagidraw.png",
+        "asset/rin.png"],
+        "tag":["裸体"],
+        "prompt":"生成一张宽高比9：16的图片。\n细节要求如下：\n1.画面背景是纯白色床单，受压而轻微褶皱。\n2.画面主体是画纸。\n3.周围散落着图中人物的所有衣物，包括裙子，夹克，发饰，内衣等，但不包括发饰和丝袜。\n4.画面中出现的衣物必须全在床单上，除了发饰和丝袜。\n5.图中人物露出完整的脸，大腿，肩膀，不要被画纸遮住。\n6.画纸内外人物身体线条严格连续。\n7.图中人物举着画纸挡住自己，躺在床单上，四肢动作任意，不要和原图相同，保留角色特征和发型。表情羞怯慌乱。\n8.画纸上恰好画出图中人物被挡住的身体部分（着衣）\n9.画纸内外人物身体线条严格连续。画纸外不画衣物，画纸中的衣物线条禁止向画纸外延申（尤其是吊带，系带，肩带，裙摆，衣袖等）。",
+        "visible":true,
+        "model":["nano banana pro"],
+        "note":""
+    },
+    {
+        "id":3,
+        "img":["asset/ainya.jpg","asset/atrinya.png","asset/chuibingnya.png",
+        "asset/hotarunya.jpg","asset/kananya.jpg","asset/kirikanya.jpg","asset/mierunya.jpg",
+        "asset/rinnya.jpg"],
+        "tag":["表情包","猫耳","兽耳","哈气"],
+        "prompt":"根据参考图片，生成一个sd表情包。图片纵横比1:1。\n图二人物脑袋上出现了和发色相同猫耳朵，屁股上出现了和发色相同猫尾巴，膝盖不着地，耳朵和尾巴伸直，表情和姿势和图一完全一致。\n保留图中人物的发饰，衣着特征。使用sd原画的风格。图片中不要有任何文字，背景为纯白色。",
+        "visible":true,
+        "model":["nano banana pro"],
+        "note":"参考图片可以是例图中任意一张图。"
+    },
+    {
+        "id":4,
+        "img":["asset/shirohakiss.png","asset/dragongirlnya.png"],
+        "tag":["接吻"],
+        "prompt":"9:16，人像摄影，日常快照风格，非精心构图或打光，在麦当劳里，一位cos图中人物的女性正在和她的恋人接吻，而一位坐在自己的座位上，离两人有一段距离，身体在画面外，只有手在画面内的男性拿着手机，手机上放着我发送的图片的人物的二次元图片，不要与我发送的图片相同，手机轻微下垂，体现他内心轻微的崩溃感。用 iPhone 后置镜头拍摄，略带快门速度不够造成的运动模糊，不进行任何虚化处理，构图随意、角度尴尬、画面不够对称或美观，画质带有日常感和粗糙感，体现「平凡无奇」图片中出现的人物都是中国人。",
+        "visible":true,
+        "model":["nano banana pro"],
+        "note":""
+    }
+]
