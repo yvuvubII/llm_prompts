@@ -59,19 +59,28 @@
             <main id="detail-content">
                 <div id="detail-msg" style="display:none; color:red; margin:20px;"></div>
                 
+                <div id="detail-thumbnails"></div>
+
                 <div id="detail-img-wrapper">
                     <img id="detail-main-image" src="">
                     
                     
                 </div>
-                <div id="switch-hint">点击以切换（第一次切换可能有点卡）</div>
+                <!--div id="switch-hint">点击以切换（第一次切换可能有点卡）</div-->
                 
                 <div id="detail-prompt"></div>
                 <div id="detail-note" style="display:none;"></div>
             </main>
         </div>
     </div>
-
+    <div id="lightbox">
+        <div id="lightbox-close">&times;</div>
+        <div id="lightbox-prev" class="lightbox-nav">&#10094;</div>
+        <div id="lightbox-container">
+            <img id="lightbox-img" src="">
+        </div>
+        <div id="lightbox-next" class="lightbox-nav">&#10095;</div>
+    </div>
     <script src="js/index.js"></script>
 </body>
 </html>
